@@ -124,7 +124,7 @@ public class Main {
     for (int i = 0; i < n; i++) {
       arr[i] = Integer.parseInt(values[i]);
     }
-
+    // Root node 
     Node root = construct(arr);
     levelOrder(root);
   }
